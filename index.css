@@ -1,0 +1,64 @@
+s {
+    text-decoration: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(/pictures/main.jpg);
+    padding: 1px;
+    margin: 0px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.motto {
+    text-transform: capitalize;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arrow {
+    height: 100px;
+}
+
+.section {
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 300px;
+    font-size: 12px;
+    padding: 25px;
+    vertical-align: auto;
+}
+
+.section2 {
+    background-image: url(./pictures/bear.jpg);
+    background-color: rgba(29, 23, 23, 0.726);
+    background-blend-mode: darken;
+    background-size: contain;
+    color: white;
+}
+
+.button {
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: orange;
+    text-decoration: none;
+}
